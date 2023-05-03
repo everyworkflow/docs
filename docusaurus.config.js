@@ -241,6 +241,10 @@ const config = {
             title: 'More',
             items: [
               {
+                label: 'EveryWorkflow',
+                href: 'https://everyworkflow.com',
+              },
+              {
                 label: 'Dream Work Factory',
                 href: 'https://dreamworkfactory.com',
               },
