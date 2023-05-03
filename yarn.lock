@@ -1427,7 +1427,7 @@
     "@docusaurus/utils-validation" "2.4.0"
     tslib "^2.4.0"
 
-"@docusaurus/plugin-google-gtag@2.4.0":
+"@docusaurus/plugin-google-gtag@2.4.0", "@docusaurus/plugin-google-gtag@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@docusaurus/plugin-google-gtag/-/plugin-google-gtag-2.4.0.tgz#a8efda476f971410dfb3aab1cfe1f0f7d269adc5"
   integrity sha512-adj/70DANaQs2+TF/nRdMezDXFAV/O/pjAbUgmKBlyOTq5qoMe0Tk4muvQIwWUmiUQxFJe+sKlZGM771ownyOg==
@@ -2125,9 +2125,9 @@
     "@types/react" "*"
 
 "@types/react@*":
-  version "18.2.0"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.0.tgz#15cda145354accfc09a18d2f2305f9fc099ada21"
-  integrity sha512-0FLj93y5USLHdnhIhABk83rm8XEGA7kH3cr+YUlvxoUGp1xNt/DINUMvqPxLyOQMzLmZe8i4RTHbvb8MC7NmrA==
+  version "18.2.1"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.1.tgz#37f7d4be4a2b4f61d618e4ca12681acab9e58c20"
+  integrity sha512-KbNvY50AOVy1HBHbQc+iPK44HMaz6CRXuUFsu/L8yCP+nsuE1c1EQSdyaHhsPiI7gJQ3c3VRp+YuCL/5hzvcRw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -5156,9 +5156,9 @@ lru-cache@^6.0.0:
     yallist "^4.0.0"
 
 lunr-languages@^1.4.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/lunr-languages/-/lunr-languages-1.11.0.tgz#d8d1c1f655c63d0ea6ad696da19b3476434840f3"
-  integrity sha512-V9cvFv3bWKWSb7ucbg9QeNpOiuhglR9F9KipjE8CpVXgqLIwgLrskNNtj2ock7AAcVcSZiFVXeTfgVKCGBf1jg==
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/lunr-languages/-/lunr-languages-1.12.0.tgz#c44d8f2127054a55c62e1aebe0b1eaea6dfc1d91"
+  integrity sha512-C2z02jt74ymrDocBwxYB4Cr1LNZj9rHGLTH/00+JuoT6eJOSSuPBzeqQG8kjnlPUQe+/PAWv1/KHbDT+YYYRnA==
 
 lunr@^2.3.8:
   version "2.3.9"
