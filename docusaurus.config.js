@@ -107,6 +107,20 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'component',
+        path: 'component',
+        routeBasePath: 'component',
+        lastVersion: 'current',
+        sidebarPath: require.resolve('./component_sidebars.js'),
+        editUrl: 'https://github.com/everyworkflow/docs/blob/main/',
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+        breadcrumbs: true,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'tutorial',
         path: 'tutorial',
         routeBasePath: 'tutorial',
@@ -180,6 +194,12 @@ const config = {
             activeBaseRegex: 'frontend/(next|v8)',
           },
           {
+            to: 'component',
+            label: 'Component',
+            position: 'left',
+            activeBaseRegex: 'component/(next|v8)',
+          },
+          {
             to: 'resources',
             label: 'Resources',
             position: 'left',
@@ -232,12 +252,13 @@ const config = {
             title: 'Community',
             items: [
               {
+                label: 'Resources',
+                href: '/resources/community',
+              },
+
+              {
                 label: 'Discord',
                 href: 'https://discord.gg/J5T664QB',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/everyworkflow',
               },
             ],
           },

@@ -28,3 +28,37 @@
   --ifm-color-primary-lightest: #91caff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.markdown-property-table table {
+  width: 100%;
+  display: table;
+}
+
+.markdown-property-table table thead th {
+  text-align: left;
+}
+
+.markdown-property-table.column-1 table thead th {
+  width: calc(100% / 1);
+}
+
+.markdown-property-table.column-2 table thead th {
+  width: calc(100% / 2);
+}
+
+.markdown-property-table.column-3 table thead th {
+  width: calc(100% / 3);
+}
+
+.markdown-property-table.column-4 table thead th {
+  width: calc(100% / 4);
+}
+
+.markdown-property-table.column-5 table thead th {
+  width: calc(100% / 5);
+}
+
+.markdown-property-table.column-6 table thead th {
+  width: calc(100% / 5);
+}
+

@@ -13,10 +13,14 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">EveryWorkflow Documentation</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        <div className={styles.buttons} style={{gap: 16}}>
           <Link
             className="button button--secondary button--lg"
-            to="/setup">Read more</Link>
+            to="/setup">Setup</Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="/component">Component</Link>
+
         </div>
       </div>
     </header>
