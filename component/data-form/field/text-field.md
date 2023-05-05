@@ -37,9 +37,6 @@ Text field page.
 | is_readonly | bool | false |
 | value | string | |
 | default_value | string | |
-| input_type | string | text |
+| input_type | string, see [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) | text |
 
 </div>
-
-For input_type see [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) types.
-
