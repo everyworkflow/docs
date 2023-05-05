@@ -28,8 +28,8 @@ yarn build
 
 ### Build directories
 
-- `apps/admin-panel/build/*`
-- `apps/front-panel/build/*`
+- `apps/admin-panel/build`
+- `apps/front-panel/build`
 
 ### ReactJS production deployment
 
