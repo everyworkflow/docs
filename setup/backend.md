@@ -79,5 +79,7 @@ bin/phpunit
 
 #### Generating code coverage
 
-- `XDEBUG_MODE=coverage bin/phpunit --coverage-html public/test-html`
+```bash
+XDEBUG_MODE=coverage bin/phpunit --coverage-html public/test-html
+```
 - Visit: http://localhost:8080/test-html/index.html
