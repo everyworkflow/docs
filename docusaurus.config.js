@@ -266,17 +266,13 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'EveryWorkflow',
+                label: 'Goto back to home',
                 href: 'https://everyworkflow.com',
-              },
-              {
-                label: 'Dream Work Factory',
-                href: 'https://dreamworkfactory.com',
               },
             ],
           },
         ],
-        copyright: `<small>Copyright © Dream Work Factory Pvt Ltd. Build with Docusaurus.</small>`,
+        copyright: `<small>Copyright © EveryWorkflow. Build with Docusaurus.</small>`,
       },
       prism: {
         theme: lightCodeTheme,
